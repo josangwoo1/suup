@@ -35,7 +35,12 @@ class MyHomePage extends StatelessWidget {
       body: Center(
         child: Column(
           mainAxisAlignment: MainAxisAlignment.center, // 세로축 화면에 정렬
-          children: [Text("Hello"), Text("Hello"), Text("Hello")],
+          children: [
+            Text("Hello"),
+            Text("Hello"),
+            Text("Hello"),
+            Text('git hub')
+          ],
         ),
       ),
     );
